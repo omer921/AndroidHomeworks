@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="250dp"
+        android:id="@+id/pictureView2" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="32dp"
+        android:textStyle="bold"
+        android:id="@+id/title2"
+        android:layout_toRightOf="@id/pictureView2"
+        android:paddingLeft="10dp"
+        android:textColor="#000000"/>
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ratingView2"
+        android:layout_below="@id/pictureView2"
+        android:numStars="5"
+        android:contextClickable="false"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/description2"
+        android:layout_below="@id/ratingView2"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/year2"
+        android:layout_below="@id/title2"
+        android:paddingLeft="10dp"
+        android:layout_toRightOf="@id/pictureView2"/>
+
+</RelativeLayout>

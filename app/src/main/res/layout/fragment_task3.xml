@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.omer.hw3.Task3Fragment"
+    android:orientation="vertical"
+    android:layout_centerHorizontal="true">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please choose the movie fragment you want to view:"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Movie 1"
+        android:id="@+id/movie1Button"
+        android:layout_gravity="center_horizontal"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Movie 2"
+        android:id="@+id/movie2Button"
+        android:layout_below="@id/movie1Button"
+        android:layout_gravity="center_horizontal"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Movie 3"
+        android:id="@+id/movie3Button"
+        android:layout_below="@id/movie2Button"
+        android:layout_gravity="center_horizontal"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Movie 4"
+        android:id="@+id/movie4Button"
+        android:layout_below="@id/movie3Button"
+        android:layout_gravity="center_horizontal"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Movie 5"
+        android:id="@+id/movie5Button"
+        android:layout_below="@id/movie4Button"
+        android:layout_gravity="center_horizontal"/>
+
+
+
+
+
+
+</LinearLayout>

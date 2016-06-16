@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.omer.hw3.FrontPageFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please choose the activity or fragment you would like to go to:"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:paddingTop="20dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About me"
+            android:id="@+id/aboutMeButton"
+            android:layout_weight="1"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Task 1"
+            android:layout_below="@id/aboutMeButton"
+            android:id="@+id/task1Button"
+            android:layout_weight="1"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Task 2"
+            android:layout_below="@id/task1Button"
+            android:id="@+id/task2Button"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+</RelativeLayout>
